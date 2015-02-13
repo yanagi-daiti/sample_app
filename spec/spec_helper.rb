@@ -41,6 +41,4 @@ RSpec.configure do |config|
   config.order = "random"
   config.include Capybara::DSL
 
-  # [ruby on rails - Rspec and named routes - Stack Overflow](http://stackoverflow.com/questions/9475857/rspec-and-named-routes)
-    config.include Rails.application.routes.url_helpers
 end
