@@ -12,7 +12,6 @@ RSpec::Matchers.define :have_error_message do |message|
   end
 end
 
-
 def sign_in(user, options={})
   if options[:no_capybara]
     # Capybaraを使用していない場合にもサインインする。
